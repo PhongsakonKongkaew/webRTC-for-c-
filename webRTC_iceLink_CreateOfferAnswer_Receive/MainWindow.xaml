@@ -1,0 +1,29 @@
+﻿<Window x:Class="webRTC_iceLink_CreateOfferAnswer_Receive.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="Receiver iceLink webRTC" Height="692" Width="681.333" Closing="Window_Closing" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="TextBox_senderOffer" VerticalScrollBarVisibility="Auto"
+                 AcceptsReturn="True" HorizontalAlignment="Left" Height="214" Margin="14,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+        <Button x:Name="btn_createAnswer" Content="Create answer" HorizontalAlignment="Left" Margin="134,20,0,0" VerticalAlignment="Top" Width="91" Height="27" Click="btn_createAnswer_Click"/>
+        <Label Content="Remote Description" HorizontalAlignment="Left" Margin="14,21,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBox_Answer" VerticalScrollBarVisibility="Auto" IsReadOnly="True" 
+                 AcceptsReturn="True" HorizontalAlignment="Left" Height="174" Margin="14,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+        <Label Content="Local Description" HorizontalAlignment="Left" Margin="14,281,0,0" VerticalAlignment="Top"/>
+        <Label Content="Console Log" HorizontalAlignment="Left" Margin="286,388,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFFB0E0E" Background="#FFF6FF36"/>
+        <TextBox x:Name="TextBox_log" VerticalScrollBarVisibility="Auto"
+                 AcceptsReturn="True" HorizontalAlignment="Left" Height="226" Margin="286,414,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352"/>
+        <Label Content="Candidate" HorizontalAlignment="Left" Margin="14,497,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Getcandidate" Content="Get candidate" HorizontalAlignment="Left" Margin="83,502,0,0" VerticalAlignment="Top" Width="91" Height="21" Click="btn_Getcandidate_Click"/>
+        <TextBox x:Name="TextBox_candidate"  VerticalScrollBarVisibility="Auto"
+                 AcceptsReturn="True" HorizontalAlignment="Left" Height="108" Margin="14,532,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+        <Canvas x:Name="containerLocal" HorizontalAlignment="Left" Height="288" Margin="286,10,0,0" VerticalAlignment="Top" Width="352" Background="Black"/>
+        <Label Content="Audio Device" HorizontalAlignment="Left" Margin="301,314,0,0" VerticalAlignment="Top"/>
+        <Label Content="Video Device" HorizontalAlignment="Left" Margin="495,314,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="AudioDevices" HorizontalAlignment="Left" Margin="286,340,0,0" VerticalAlignment="Top" Width="174"/>
+        <ComboBox x:Name="VideoDevices" HorizontalAlignment="Left" Margin="478,340,0,0" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="btn_reset" Content="Reset" HorizontalAlignment="Left" Margin="381,388,0,0" VerticalAlignment="Top" Width="75" Click="btn_reset_Click"/>
+
+    </Grid>
+</Window>

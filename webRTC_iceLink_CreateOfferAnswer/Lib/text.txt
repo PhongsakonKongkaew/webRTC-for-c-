@@ -1,0 +1,14 @@
+AForge.dll*
+AForge.Video.DirectShow.dll*
+AForge.Video.dll*
+crypto.dll*
+FM.dll*
+FM.IceLink.dll*
+FM.IceLink.WebRTC.AForge.dll*
+FM.IceLink.WebRTC.dll*
+FM.IceLink.WebRTC.NAudio.dll*
+NAudio.dll*
+text.txt
+Win.AudioProcessing.120.dll*
+Win.Opus.120.dll*
+Win.VP8.120.dll*

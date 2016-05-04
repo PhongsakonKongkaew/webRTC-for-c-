@@ -1,0 +1,8 @@
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\bin\x64\Debug\client.exe.config
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\bin\x64\Debug\client.exe
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\bin\x64\Debug\client.pdb
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\obj\x64\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\obj\x64\Debug\client.exe
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\obj\x64\Debug\client.pdb
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\PHONGSAKORN\Documents\Visual Studio 2013\Projects\simple websocket client\client\bin\x64\Debug\Newtonsoft.Json.xml
